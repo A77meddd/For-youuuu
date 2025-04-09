@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 80%; 
+    max-width: 500px; 
+    height: auto;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer p{
+    margin: 0;
+  }
+
+  /*Social media icons */
+
+  .socialicons img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .socialicons a{
+    display: inline-flex;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
+  
+  .socialicons a img{
+    transition: filter 0.3s ease-in-out;
+  }
+
+  /* Facebook - Change to blue on hover */
+  .socialicons a.facebook:hover img {
+    filter: invert(30%) sepia(100%) saturate(300%) hue-rotate(220deg);
+  }
+
+  /* Instagram - Change to pink on hover */
+  .socialicons a.instagram:hover img {
+    filter: invert(40%) sepia(80%) saturate(500%) hue-rotate(310deg);
+  }
+
+  /* LinkedIn - Change to cyan on hover */
+  .socialicons a.linkedin:hover img {
+    filter: invert(30%) sepia(90%) saturate(400%) hue-rotate(180deg);
+  }
+
+  /* GitHub - Change to purple on hover */
+  .socialicons a.github:hover img {
+    filter: invert(25%) sepia(70%) saturate(500%) hue-rotate(270deg);
+  }
